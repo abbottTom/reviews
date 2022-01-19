@@ -1,0 +1,3102 @@
+<html>
+<head>
+    <style type="text/css"> #targetbay_reviews {
+        display: inline-block;
+        overflow: hidden;
+        padding: 2em 0;
+        position: relative;
+        width: 100%;
+    }
+
+    #targetbay_reviews *, #targetbay_reviews *:before, #targetbay_reviews *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #targetbay_reviews table, #targetbay_reviews td, #targetbay_reviews tr {
+        vertical-align: middle;
+        border: none !important;
+        padding: 0;
+    }
+
+    #tbProductReviews .tbTextCenter table, #tbProductReviews .tbTextCenter td, #tbProductReviews .tbTextCenter tr {
+        text-align: center;
+    }
+
+    #tbProductReviews button, #tbProductReviews button:active, #tbProductReviews button:hover, #tbProductReviews button:focus, #tbProductReviews a, #tbProductReviews a:active, #tbProductReviews a:hover, #tbProductReviews a:focus {
+        outline: 0;
+        text-decoration: none;
+        text-decoration: none !important;
+    }
+
+    #tbProductReviews .tbGrid-1, #tbProductReviews .tbGrid-2, #tbProductReviews .tbGrid-3, #tbProductReviews .tbGrid-4, #tbProductReviews .tbGrid-5, #tbProductReviews .tbGrid-6, #tbProductReviews .tbGrid-7, #tbProductReviews .tbGrid-8, #tbProductReviews .tbGrid-9, #tbProductReviews .tbGrid-10, #tbProductReviews .tbGrid-11, #tbProductReviews .tbGrid-12 {
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #tbProductReviews .tbGrid-12 {
+        width: 100%;
+    }
+
+    #tbProductReviews .tbGrid-11 {
+        width: 91.66666667%;
+    }
+
+    #tbProductReviews .tbGrid-10 {
+        width: 83.33333333%;
+    }
+
+    #tbProductReviews .tbGrid-9 {
+        width: 75%;
+    }
+
+    #tbProductReviews .tbGrid-8 {
+        width: 66.66666667%;
+    }
+
+    #tbProductReviews .tbGrid-7 {
+        width: 58.33333333%;
+    }
+
+    #tbProductReviews .tbGrid-6 {
+        width: 50%;
+    }
+
+    #tbProductReviews .tbGrid-5 {
+        width: 41.66666667%;
+    }
+
+    #tbProductReviews .tbGrid-4 {
+        width: 33.33333333%;
+    }
+
+    #tbProductReviews .tbGrid-3 {
+        width: 25%;
+    }
+
+    #tbProductReviews .tbGrid-2 {
+        width: 16.66666667%;
+    }
+
+    #tbProductReviews .tbGrid-1 {
+        width: 8.33333333%;
+    }
+
+    #tbProductReviews .tbrow {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    #tbProductReviews .tb-width-270 {
+        width: 270px;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #tbProductReviews .tb-width-350 {
+        width: 350px;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #tbProductReviews .tbPullRight {
+        float: right !important;
+    }
+
+    #tbProductReviews .tbTextCenter {
+        text-align: center !important;
+    }
+
+    #tbProductReviews .tbImageResponsive {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        -webkit-backface-visibility: hidden;
+        -ms-transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    #tbProductReviews .tbProductDefaultButton {
+        padding: 9px 9px;
+        cursor: pointer;
+        text-align: center;
+        height: inherit !important;
+        width: auto;
+        text-transform: none;
+        border-radius: 0;
+    }
+
+    #tbProductReviews .tbProductReviews-mainContainer {
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+
+    #tbProductReviews .tbProductReviews-Header {
+        float: left;
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #tbProductReviews .tbProductReviews-Heading span {
+        color: #000000;
+        font-size: 18px;
+    }
+
+    #tbProductReviews .tbSiteReviews-VerifiedBuyer {
+        margin: 10px 0 0;
+    }
+
+    #tbProductReviews .tbSiteReviews-VerifiedBuyer span {
+        display: inline-flex;
+        margin: 3px 0 0 5px;
+        vertical-align: top;
+        color: #25ad65;
+        letter-spacing: 0.7px;
+        font-size: 13px;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEach {
+        float: left;
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEach:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientPostDetails, #tbProductReviews .tbSiteReviews-tbClientPostTitleArea {
+        float: left;
+        width: 100%;
+        padding: 0px 0 10px 0;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientPostDate span {
+        font-size: 12px;
+        color: #676767;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientAddress span {
+        font-size: 12px;
+        color: #676767;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientTitle {
+        font-weight: bold;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientDescription {
+        line-height: 20px;
+        font-size: 13px;
+        color: #777;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewedf, #tbProductReviews .tbSiteReviews-reviewedf a {
+        line-height: 20px;
+        font-size: 13px;
+        color: #777;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewedf a {
+        color: #1d82be;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewCommentContainer {
+        padding-top: 10px;
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewCommentNotify {
+        color: #000000;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientPostDate span.tbSiteReviews-tbadminReplay {
+        margin-left: 5px;
+        color: #25ad65;
+    }
+
+    #tbProductReviews .tbTextCenter.tbSiteReviews-Footer {
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbProductReviews-tbReviewForm {
+        float: left;
+        width: 100%;
+        border: 1px solid #eee;
+        margin-bottom: 20px;
+        padding: 20px;
+        display: none;
+        position: relative;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormHeading {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormLabel {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-weight: normal;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormGroup {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormInput {
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        width: 100%;
+        max-width: 100%;
+        float: left;
+        height: 37px;
+        padding: 0 5px;
+        background: #fff;
+    }
+
+    #tbProductReviews textarea.tbSiteReviews-tbReviewFormInput {
+        height: 70px;
+        resize: none;
+        padding: 4px 6px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormButton {
+        width: 100%;
+        float: left;
+    }
+
+    #tbProductReviews .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 0;
+        border-radius: 4px;
+        width: auto;
+        float: none;
+    }
+
+    #tbProductReviews .pagination > li {
+        display: inline;
+    }
+
+    #tbProductReviews .pagination > li > a, #tbProductReviews .pagination > li > span {
+        position: relative;
+        float: left;
+        padding: 5px 10px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        margin-left: -1px;
+    }
+
+    #tbProductReviews .pagination > li:first-child > a, #tbProductReviews .pagination > li:first-child > span {
+        margin-left: 0;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    #tbProductReviews .pagination > li:last-child > a, #tbProductReviews .pagination > li:last-child > span {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    #tbProductReviews .pagination > li > a:hover, #tbProductReviews .pagination > li > span:hover, #tbProductReviews .pagination > li > a:focus, #tbProductReviews .pagination > li > span:focus {
+        z-index: 2;
+        color: #fff;
+        background-color: #000000;
+        border-color: #000000;
+    }
+
+    #tbProductReviews .pagination > .disabled > a, #tbProductReviews .pagination > .disabled > span, #tbProductReviews .pagination > .disabled > a:hover, #tbProductReviews .pagination > .disabled > span:hover, #tbProductReviews .pagination > .disabled > a:focus, #tbProductReviews .pagination > .disabled > span:focus {
+        z-index: 3;
+        color: #ffffff;
+        background-color: #ccc;
+        border-color: #ccc;
+        cursor: default;
+    }
+
+    #tbProductReviews .pagination > .active > a, #tbProductReviews .pagination > .active > span, #tbProductReviews .pagination > .active > a:hover, #tbProductReviews .pagination > .active > span:hover, #tbProductReviews .pagination > .active > a:focus, #tbProductReviews .pagination > .active > span:focus {
+        z-index: 3;
+        color: #ffffff;
+        background-color: #000000;
+        border-color: #000000;
+        cursor: default;
+    }
+
+    #tbProductReviews .tbSiteReviews-shareText span {
+        float: left;
+        margin-top: 4px;
+        font-size: 13px;
+    }
+
+    #tbProductReviews .tb-review-popupmodal .tbSiteReviews-shareText span {
+        float: none;
+        margin-top: 0px;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon {
+        float: left;
+        margin-left: 5px;
+        transition: 0.2s all;
+    }
+
+    #tbProductReviews .tbSiteReviews-shareText:hover ul.tbProductReview-totalStarRatingIcon::before {
+        width: 0%;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEach:hover .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon {
+        opacity: 1;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon li {
+        padding: 0 1px;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon li a {
+        text-align: center;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon li i {
+        padding: 6px 0px 0 0;
+        height: 23px;
+        width: 23px;
+        color: #fff;
+        font-size: 12px;
+        border: none;
+        border-radius: 50%;
+        background: #999;
+        transition: 0.3s all;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter .tbSiteReviews-shareText .tbProductReview-totalStarRatingIcon li i:hover, #tbProductReviews .tb-review-popup-admincomment-Footer .tbProductReview-totalStarRatingIcon li a:hover {
+        color: #fff;
+        background-color: #000000;
+    }
+
+    #tbSiteReviews .tbSiteReviews-help {
+        margin-top: 4px;
+    }
+
+    #tbProductReviews .tbSiteReviews-help ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #tbProductReviews .tbSiteReviews-help ul li {
+        display: inline;
+        margin-left: 7px;
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-help ul li:first-child {
+        margin-left: 0px;
+    }
+
+    #tbProductReviews .tbSiteReviews-help ul li i {
+        color: #999;
+        transition: 0.3s all;
+    }
+
+    #tbProductReviews .tbSiteReviews-shareText {
+    / / border-right: 1 px solid #ddd;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEachFooter {
+        border-top: 1px solid #ddd;
+        padding: 14px 7px 0px;
+    }
+
+    #tbProductReviews .tbSiteReviews-questionContainerEachFooter {
+        padding: 14px 7px 14px;
+    }
+
+    #tbProductReviews #tbQuestionSection .tbSiteReviews-questionContainerEachFooter {
+        text-align: center;
+        margin: 14px 0 0 14px;
+        padding: 0;
+    }
+
+    #tbProductReviews div, #tbProductReviews span, #tbProductReviews a, #tbProductReviews ul, #tbProductReviews li, #tbProductReviews li a, #tbProductReviews button, #tbProductReviews label, #tbProductReviews form, #tbProductReviews textarea, #tbProductReviews input, #tbProductReviews p {
+        font-family: inherit;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-style: normal !important;
+        font-size: 14px;
+        line-height: normal;
+        color: #000000;
+        border: none;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+    #tbProductReviews .tbProductDefaultButtonColor, #tbProductReviews .tbProductDefaultButtonColor:hover {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border: 1px solid #000000 !important;
+    }
+
+    #tbProductReviews .tbProductDefaultCancelButtonColor {
+        background-color: #777;
+        color: #fff;
+        border: 1px solid #777;
+    }
+
+    #tbProductReviews .tbProductReviews-tbProductReviewData {
+        padding: 20px 0;
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbProductReviews-tbTabNavBar {
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbProductReviews-progress {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+
+    #tbProductReviews .tbProductReview-totalRating {
+        font-size: 60px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    #tbProductReviews .tbProductReview-totalRating span {
+        font-size: 40px;
+        color: #777;
+    }
+
+    #tbProductReviews .tbProductReview-totalRating span {
+        font-size: 40px;
+        color: #777;
+    }
+
+    #tbProductReviews .tbProductReview-totalStarRating {
+        margin-bottom: 10px;
+    }
+
+    #tbProductReviews .tbProductReviewData-Rating .tbProductReview-totalStarRatingIcon li i {
+        padding: 0 1px;
+        font-size: 28px;
+        color: #febf00;
+    }
+
+    #tbProductReviews .tbProductReview-totalStarRatingIcon li i {
+        padding: 0 1px;
+        color: #febf00;
+        font-family: fontawesome;
+        font-style: normal !important;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMain {
+        float: left;
+        width: 100%;
+        border: none;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMain tr, #tbProductReviews .tbProductReviews-progressMain td {
+        background-color: #fff;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMain td {
+        padding-bottom: 10px;
+    }
+
+    #tbProductReviews .tbProgressStarIcon {
+        color: #febf00;
+        width: 10%;
+        padding-right: 8px;
+    }
+
+    #tbProductReviews .tbProgressStarHeading {
+        width: 10%;
+    }
+
+    #tbProductReviews .tbProgressStarProgress {
+        width: 60%;
+    }
+
+    #tbProductReviews .tbProgressStarValue {
+        width: 20%;
+    }
+
+    #tbProductReviews {
+        float: left;
+        width: 100%;
+        clear: both;
+        margin-bottom: 20px;
+        background: #ffffff;
+    }
+
+    #tbProductReviews .tbProductReviews-questionButtonSection div, #tbProductReviews .tbProductReviews-reviewButtonSection div {
+        margin-bottom: 15px;
+        height: 34px;
+    }
+
+    #tbProductReviews .tbProductReviews-questionButtonSection, #tbProductReviews .tbProductReviews-reviewButtonSection {
+        padding: 30px 0;
+        float: left;
+        width: 50%;
+    }
+
+    #tbProductReviews .tbProductReviews-questionButtonSection {
+        border-left: 1px solid #ddd;
+    }
+
+    #tbProductReviews .tbSiteReviews-reviewContainerEach {
+        margin-bottom: 0px;
+    }
+
+    #tbProductReviews ul.tbTabMenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #dddddd;
+        background-color: #dddddd;
+    }
+
+    #tbProductReviews ul.tbTabMenu li {
+        float: left;
+        list-style: none;
+    }
+
+    #tbProductReviews ul.tbTabMenu li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+
+    #tbProductReviews ul.tbTabMenu li a:hover {
+        background-color: #000000;
+        color: #fff;
+    }
+
+    #tbProductReviews ul.tbTabMenu li a:focus, #tbProductReviews ul.tbTabMenu li .active {
+        background-color: #000000;
+        color: #fff;
+    }
+
+    #tbProductReviews .tbTabContent {
+        display: none;
+        padding: 0px;
+        border: 1px solid #ddd;
+        border-top: none;
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbQuestionLabel {
+        background: #000000;
+        color: #fff;
+        font-size: 10px;
+        line-height: 15px;
+        padding: 3px 5px;
+        margin-right: 10px;
+        border-radius: 2px;
+        float: left;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+
+    #tbProductReviews .tbAnswerLabel {
+        background: #000000;
+        color: #fff;
+        font-size: 10px;
+        line-height: 15px;
+        padding: 3px 5px;
+        margin-right: 10px;
+        border-radius: 2px;
+        float: left;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewFormButton .tbSiteDefaultButton {
+        padding: 9px 14px;
+        width: auto;
+        height: auto;
+    }
+
+    #tbProductReviews .tbSiteDefaultCancelButtonColor {
+        background-color: #777 !important;
+        color: #fff !important;
+        border: 1px solid #777 !important;
+    }
+
+    #tbProductReviews .tbSiteDefaultButtonColor, #tbProductReviews .tbSiteDefaultButtonColor:hover {
+        background-color: #000000 !important;
+        color: #fff !important;
+        border: 1px solid #000000 !important;
+    }
+
+    #tbProductReviews #tbRatingStar {
+        border: none;
+        float: left;
+    }
+
+    #tbProductReviews #tbRatingStar > input {
+        display: none;
+    }
+
+    #tbProductReviews #tbRatingStar > label:before {
+        margin: 5px;
+        font-size: 1.75em;
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f006";
+    }
+
+    #tbProductReviews #tbRatingStar > .half:before {
+        content: "\f089";
+        position: absolute;
+    }
+
+    #tbProductReviews #tbRatingStar > label {
+        color: #febf00;
+        float: right;
+        cursor: pointer;
+    }
+
+    #tbProductReviews #tbRatingStar > input:checked ~ label, #tbProductReviews #tbRatingStar:not(:checked) > label:hover, #tbProductReviews #tbRatingStar:not(:checked) > label:hover ~ label {
+        color: #febf00;
+    }
+
+    #tbProductReviews #tbRatingStar > input:checked + label:hover, #tbProductReviews #tbRatingStar > input:checked ~ label:hover, #tbProductReviews #tbRatingStar > label:hover ~ input:checked ~ label, #tbProductReviews #tbRatingStar > input:checked ~ label:hover ~ label {
+        color: #febf00;
+        opacity: 0.5;
+    }
+
+    #tbProductReviews #tbRatingStar > input:checked ~ label:before, #tbProductReviews #tbRatingStar:not(:checked) > label:hover:before, #tbProductReviews #tbRatingStar:not(:checked) > label:hover ~ label:before {
+        content: "\f005";
+    }
+
+    #tbProductReviews .progress {
+        overflow: hidden;
+        height: 3px;
+        margin-bottom: 0px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #tbProductReviews .progress-bar {
+        float: left;
+        width: 0%;
+        height: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        color: #ffffff;
+        text-align: center;
+        background-color: #337ab7;
+        -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: width 0.6s ease;
+        -o-transition: width 0.6s ease;
+        transition: width 0.6s ease;
+    }
+
+    #tbProductReviews .progress-striped .progress-bar, #tbProductReviews .progress-bar-striped {
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        -webkit-background-size: 40px 40px;
+        background-size: 40px 40px;
+    }
+
+    #tbProductReviews .progress.active .progress-bar, #tbProductReviews .progress-bar.active {
+        -webkit-animation: progress-bar-stripes 2s linear infinite;
+        -o-animation: progress-bar-stripes 2s linear infinite;
+        animation: progress-bar-stripes 2s linear infinite;
+    }
+
+    #tbProductReviews .progress-bar-success {
+        background-color: #5cb85c;
+    }
+
+    #tbProductReviews .progress-striped .progress-bar-success {
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    }
+
+    #tbProductReviews .progress-bar-info {
+        background-color: #5bc0de;
+    }
+
+    #tbProductReviews .progress-striped .progress-bar-info {
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    }
+
+    #tbProductReviews .progress-bar-warning {
+        background-color: #f0ad4e;
+    }
+
+    #tbProductReviews .progress-striped .progress-bar-warning {
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    }
+
+    #tbProductReviews .progress-bar-danger {
+        background-color: #d9534f;
+    }
+
+    #tbProductReviews .progress-striped .progress-bar-danger {
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    }
+
+    #tbProductReviews .targetbayProductReviewsError {
+        color: #ED7476;
+        margin-left: 5px;
+        display: block;
+        font-size: 13px;
+        width: 100%;
+        float: left;
+    }
+
+    #tbProductReviews .targetbaysuccess span {
+        padding: 3px 8px;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        border: 1px solid rgba(15, 159, 89, 1);
+        background-color: rgba(15, 159, 89, 1);
+        color: #fff;
+    }
+
+    #tbProductReviews .targetbaysuccess {
+        background-color: #fff;
+        margin: 10px 0px;
+        padding: 10px 0;
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbProductReviews-clientLogo {
+        background: #fff;
+        border: 1px solid #dddddd;
+        padding: 10px 5px;
+        border-radius: 3px;
+        box-shadow: -2px 3px 10px -2px rgba(167, 167, 167, 0.5);
+        width: 100px;
+    }
+
+    #tbProductReviews .tbProductReviews-clientLogo img {
+        margin-bottom: 0px;
+    }
+
+    #tbProductReviews .targetbay-reviews-count-field {
+        font-size: 1.2rem;
+        margin: 0 0 10px;
+        text-align: left;
+    }
+
+    .targetbay-reviews-count-field i {
+        font-style: normal;
+    }
+
+    #tbProductReviews .targetbay-reviews-count-field .targetbay-reviews-count-value, #tbProductReviews .targetbay-reviews-count-field .targetbay-question-icon, #tbProductReviews .targetbay-reviews-count-field .targetbay-question-fields {
+        margin-left: 5px;
+    }
+
+    .targetbay-reviews-count-field {
+        clear: both;
+    }
+
+    #tbProductReviews .targetbay-reviews-count-star span i {
+        color: #febf00;
+    }
+
+    #tbProductReviews .targetbay-no-lists {
+        padding: 10px 20px;
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #tbProductReviews .targetbay-no-lists span {
+        margin-right: 159px !important;
+        display: inline-block;
+        padding: 30px;
+    }
+
+    #tbProductReviews .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #tbProductReviews .inputfile + label {
+        font-size: 16px;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0.625rem 1.25rem;
+    }
+
+    #tbProductReviews .inputfile-6 + label {
+        background-color: #ffffff;
+        padding: 0;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+
+    #tbProductReviews .inputfile-6 + label span, .inputfile-6 + label strong {
+        padding: 9px 12px;
+    }
+
+    #tbProductReviews .inputfile-6 + label span {
+        width: 200px;
+        padding-top: 1em;
+        display: inline-block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        vertical-align: top;
+        color: #a7a7a7;
+        font-size: 12px;
+        height: 37px;
+    }
+
+    #tbProductReviews .inputfile-6 + label strong {
+        height: 37px;
+        color: #f1e5e6;
+        background-color: #000000;
+        display: inline-block;
+        font-weight: normal;
+        padding: 10px;
+    }
+
+    #tbProductReviews .inputfile + label i {
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+        fill: currentColor;
+        margin-top: -0.25em;
+        margin-right: 0.25em;
+    }
+
+    #tbProductReviews .c-loader {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility, opacity;
+        transition-duration: 0s, 0.3s;
+        transition-delay: 0.3s, 0s;
+    }
+
+    #tbProductReviews .c-loader {
+        overflow: visible;
+        padding-top: 3.75rem;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    #tbProductReviews .c-loader_figure {
+        position: absolute;
+        top: 40%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 3.75rem;
+        height: 3.75rem;
+        box-sizing: border-box;
+        border: 0 solid;
+        border-radius: 50%;
+        color: #000000;
+        animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    @keyframes loader-figure {
+        0% {
+            transform: scale(0);
+        }
+        30% {
+            transform: scale(1);
+            border-width: 1.875rem;
+        }
+        70% {
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            border-width: 0;
+            opacity: 0;
+        }
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel {
+        border: 1px solid red;
+        border-radius: 50px;
+        padding: 6px 0;
+        background: #fbfbfb;
+        margin: 1em 0em;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsgLbl {
+        font-size: 13px;
+        color: red;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+        text-align: center;
+        text-shadow: none;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsg {
+        color: #333;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsg b {
+        background: #FFDFDF !important;
+        color: red;
+        padding: 0 6px;
+        margin: 0 2px;
+        border-radius: 50px;
+    }
+
+    #tbProductReviews .checkmark__circle {
+        stroke-dasharray: 166;
+        stroke-dashoffset: 166;
+        stroke-width: 2;
+        stroke-miterlimit: 10;
+        stroke: #000000;
+        fill: #000000;
+        animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+    }
+
+    #tbProductReviews .checkmark {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        display: block;
+        stroke-width: 2;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        margin: 3% auto;
+        box-shadow: inset 0px 0px 0px #000000;
+        animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+    }
+
+    #tbProductReviews .checkmark__check {
+        transform-origin: 50% 50%;
+        stroke-dasharray: 48;
+        stroke-dashoffset: 48;
+        animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+    }
+
+    @keyframes stroke {
+        100% {
+            stroke-dashoffset: 0;
+        }
+    }
+
+    @keyframes scale {
+        0%, 100% {
+            transform: none;
+        }
+        50% {
+            transform: scale3d(1.1, 1.1, 1);
+        }
+    }
+
+    @keyframes fill {
+        100% {
+            box-shadow: inset 0px 0px 0px 30px #000000;
+        }
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientImage img {
+        display: inline-block;
+        height: 40px;
+        margin: 0 7px 0 0;
+    }
+
+    #tbProductReviews .tbProductReviews-tbReviewForm.tbSiteReviews-tbReviewFormError {
+        background: #ffdfdf;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientUploadImage {
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientUploadImage * {
+        display: inline-block;
+        vertical-align: unset;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientUploadImage .tbImageResponsive {
+        height: 37px;
+        display: inline-block;
+        margin: 0 0 0 10px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbUserFileUpload {
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientUnlike, #tbProductReviews .tbSiteReviews-clientlike {
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientlike {
+        margin-right: 5px !important;
+    }
+
+    #tbProductReviews .tbSiteReviews-help [class^="tb-product-review-vote-"] span {
+        padding-bottom: 10px;
+        display: block;
+        font-size: 13px;
+    }
+
+    #tbProductReviews .tbSiteReviews-clientlike a, #tbProductReviews .tbSiteReviews-clientUnlike a {
+        text-decoration: none;
+        margin: 0;
+        padding: 0px 8px;
+        display: inline-block;
+        line-height: 24px !important;
+        border-radius: 4px;
+        background: #eff1f3;
+        background: -webkit-linear-gradient(top, #f7f8fa, #e7e9ec);
+        background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+        border-radius: 3px;
+        border-color: #ADB1B8 #A2A6AC #8D9096;
+        border-style: solid;
+        border-width: 1px;
+        font-size: 13px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbMobileShow {
+        display: none;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel {
+        border: 1px solid red;
+        border-radius: 50px;
+        padding: 6px 0;
+        background: #fbfbfb;
+        margin: 1em 0em;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsgLbl {
+        font-size: 13px;
+        color: red;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsg {
+        color: #333;
+        font-size: 12px;
+    }
+
+    #tbProductReviews .tbProductReviews-formErrorLabel .tbSiteReviews-errorMsg b {
+        background: #FFDFDF !important;
+        color: red;
+        padding: 0 6px;
+        margin: 0 2px;
+        border-radius: 50px;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbUploadedImageView img {
+        float: left;
+        margin: 10px 10px 0 0px;
+        max-width: 200px;
+        height: auto;
+        max-height: 300px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic {
+        border-top: 1px solid #008080;
+        box-shadow: -2px 2px 9px rgba(0, 0, 0, .2);
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic img {
+        width: 30px;
+        float: right;
+        margin: 3px 2px 4px 3px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic p {
+        float: right;
+        color: #777;
+        font-size: 10px;
+        margin: 0;
+        padding: 7px 0 5px 6px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic p span {
+        font-size: 10px;
+        color: #777;
+        font-weight: 600;
+        margin: 0 8px 0 -2px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic {
+        border-top: 1px solid #008080;
+        box-shadow: -2px 2px 9px rgba(0, 0, 0, .2);
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic img {
+        width: 30px;
+        float: right;
+        margin: 3px 2px 4px 3px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic p {
+        float: right;
+        color: #777;
+        font-size: 10px;
+        margin: 0;
+        padding: 7px 0 5px 6px;
+    }
+
+    #tbProductReviews .tbProductReviews-tbauthentic p span {
+        font-size: 10px;
+        color: #777;
+        font-weight: 600;
+        margin: 0 8px 0 -2px;
+    }
+
+    #tbProductReviews .tb-letter-sec {
+        width: auto;
+        padding-right: 8px;
+        float: left;
+    }
+
+    #tbProductReviews .tb-review-main-cont {
+        float: none;
+        overflow: hidden;
+        width: auto;
+    }
+
+    #tbProductReviews ul.tbTabMenu .tb-sort-reviews {
+        float: right;
+    }
+
+    #tbProductReviews .tb-sort-reviews * {
+        display: inline-block;
+    }
+
+    #tbProductReviews ul.tbTabMenu .tb-sort-reviews div {
+        padding: 7px 10px;
+    }
+
+    #tbProductReviews ul.tbTabMenu .tb-sort-reviews #tb-sort-reviews, #tbProductReviews ul.tbTabMenu .tb-sort-reviews #tb-sort-qa {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 5px !important;
+        width: 220px;
+        margin: 0;
+        height: auto !important;
+        display: initial;
+        font-size: 14px;
+        color: #333;
+        min-height: auto;
+        line-height: normal;
+        -webkit-appearance: menulist;
+        -moz-appearance: menulist;
+        appearance: menulist;
+    }
+
+    #tbProductReviews ul.tbTabMenu .tb-sort-reviews #tb-sort-reviews option, #tbProductReviews ul.tbTabMenu .tb-sort-reviews #tb-sort-qa option {
+        display: block;
+    }
+
+    #tbProductReviews .tb-sort-reviews label {
+        vertical-align: middle;
+    }
+
+    /* media query for below 800px */
+    @media (max-width: 880px) {
+        #targetbay_reviews.tbProductReviewresIe .tbProductReviews-reviewButtonSection, #targetbay_reviews.tbProductReviewresIe .tbProductReviews-questionButtonSection {
+            width: 100%;
+            padding: 0 0;
+            border: none;
+            margin-bottom: 1em;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbProductReviews-reviewButtonSection div, #targetbay_reviews.tbProductReviewresIe .tbProductReviews-questionButtonSection div {
+            display: none;
+        }
+    }
+
+    /* media query for below 768px */
+    @media (max-width: 768px) {
+        #targetbay_reviews .tbProductReviews-progressMainOld td i {
+            padding-right: 2px !important;
+        }
+
+        #targetbay_reviews .tbProductReviews-progressMain.tbProductReviews-progressMainOld {
+            padding: 0 !important;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbMobileShow {
+            display: inline-block;
+            float: left;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbMobileHide {
+            display: none;
+        }
+
+        #tbProductReviews .tbSiteReviews-tbClientName.tbGrid-9 .tbSiteReviews-tbClientImage.tbSiteReviews-tbMobileShow {
+            display: none;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbFullWidth {
+            width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbProductReviews-reviewButtonSection, #targetbay_reviews.tbProductReviewresIe .tbProductReviews-questionButtonSection {
+            width: 50%;
+            padding: 0 0;
+            border: none;
+            margin: 1em 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbProductReviews-reviewButtonSection div, #targetbay_reviews.tbProductReviewresIe .tbProductReviews-questionButtonSection div {
+            display: none;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbFullBorder {
+            border: 1px solid #ddd;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbProductReviews-progress {
+            border: none;
+            margin: 1em 0;
+            border-top: 1px solid #ddd;
+            padding-top: 1em;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .inputfile + label {
+            max-width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbClientName span {
+            vertical-align: top;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-shareText {
+            border-right: none;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewContainerEachFooter {
+            padding: 14px 7px 3px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewContainerEachFooter .tbGrid-6 {
+            width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-shareText ul.tbProductReview-totalStarRatingIcon::before {
+            display: none;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewContainerEachFooter {
+            text-align: center;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewContainerEachFooter .tbPullRight {
+            float: none !important;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe ul.tbTabMenu li {
+            float: left;
+            width: 50%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe ul.tbTabMenu li a {
+            width: 100%;
+            padding: 14px 0px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbClientRating .tbPullRight {
+            float: left !important;
+            margin-bottom: 10px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .inputfile-6 + label span {
+            width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .inputfile-6 + label strong {
+            float: left !important;
+            width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-clientUploadImage {
+            padding-left: 0;
+            width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-clientUploadImage .tbImageResponsive {
+            margin-right: 5px;
+            height: 100px !important;
+            margin-left: 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbQuestionLabel {
+            margin-bottom: 5px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbClientPostDetails .tbProductReviews-clientLogo { /* float: left; margin: 0 8px 10px 0px; */
+            display: none;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewCommentContainer .tbSiteReviews-tbClientPostDate {
+            margin-top: 8px;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbClientPostDetails .tbProductReviews-clientLogo img {
+            max-width: 100%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbAnswerLabel {
+            margin: 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe #tbQuestionSection .tbSiteReviews-reviewCommentContainer .tbSiteReviews-tbClientDescription .tbGrid-10 {
+            width: 100%;
+            padding: 10px 0 0 0;
+        }
+
+        #tbProductReviews #tbQuestionSection .tbSiteReviews-questionContainerEachFooter {
+            margin: 8px 0 0 0;
+            width: 50%;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-questionContainerEachFooter .tbPullRight {
+            float: none !important;
+            text-align: center;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-tbMobileLeft {
+            float: left !important;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbSiteReviews-reviewCommentContainer .tbSiteReviews-tbClientPostDate .tbPullRight {
+            float: left !important;
+            margin: 0 7px 0 0 !important;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe .tbTextCenter.tbSiteReviews-Footer {
+            background: #ededed;
+        }
+
+        #tbProductReviews .tbProductReviews-tbauthentic {
+            float: left !important;
+            display: block !important;
+        }
+
+        #tbProductReviews .tbProductReviews-Heading span.tbProductReviews-HeadingTitle {
+            float: left;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe ul.tbTabMenu li.tb-sort-reviews {
+            width: 100%;
+            background: #f0f0f0;
+            padding: 0px;
+            text-align: center;
+        }
+
+        #tbProductReviews ul.tbTabMenu .tb-sort-reviews div {
+            padding: 7px 10px; /*display: grid;*/
+        }
+
+        #tbProductReviews ul.tbTabMenu .tb-sort-reviews div label { /*display: block; margin-bottom: 10px;*/
+        }
+
+        #tbProductReviews .tbSiteReviews-reviewCommentContainer {
+            padding-top: 0;
+        }
+
+        #tbQuestionSection .tbSiteReviews-tbClientPostTitleArea .tbSiteReviews-tbClientTitle.tbGrid-10 {
+            width: 100%;
+            padding: 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe #tbQuestionSection .tbSiteReviews-reviewCommentContainer .tbSiteReviews-tbClientName {
+            width: 100%;
+            padding: 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe #tbQuestionSection .tbSiteReviews-reviewCommentContainer .tbSiteReviews-tbClientPostDate {
+            width: 50%;
+            float: left;
+            padding: 0;
+        }
+
+        #targetbay_reviews.tbProductReviewresIe #tbQuestionSection .tbSiteReviews-reviewCommentContainer .tbProductReviews-clientLogo {
+            display: none;
+        }
+
+        #tbProductReviews #tbQuestionSection .tbSiteReviews-questionContainerEachFooter .tbSiteReviews-help {
+            float: right;
+        }
+
+        #tbProductReviews .tbSiteReviews-tbClientPostDate span {
+            font-size: 14px;
+        }
+    }
+
+    #tbProductReviews .tbSiteReviews-tbClientRating {
+        display: inline-block;
+        padding: 0 0 6px 0;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td i {
+        float: left;
+        padding-right: 4px;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld tbody, #tbProductReviews .tbProductReviews-progressMainOld tr {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld tr:last-child {
+        padding-bottom: 0;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld tr {
+        padding-bottom: 6px;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td {
+        float: left;
+        padding-right: 0;
+        padding-bottom: 0px;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td:first-child {
+        width: 27%;
+        padding: 2px 0;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td:nth-child(2) {
+        width: 11%;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td:nth-child(3) {
+        width: 62%;
+        padding-left: 10px;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMain.tbProductReviews-progressMainOld {
+        padding: 0 10px !important;
+        display: inline-block;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td:nth-child(3) .progress {
+        height: 8px;
+        border-radius: 0;
+        margin-top: 6px;
+    }
+
+    #tbProductReviews .tbProductReviews-progressMainOld td .targetbay-progress-value {
+        background: #febf00;
+    }
+
+    #tbProductReviews .tbProductReview-ratingmodel1 .tbProductReview-ratingmodel1 {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+
+    #tbProductReviews .tbProductReview-ratingmodel1 span {
+        float: left;
+    }
+
+    #tbProductReviews .tbProductReview-ratingmodel1 .tbProductReview-totalStarRatingIcon {
+        float: left;
+        padding-right: 15px;
+    }
+
+    #tbProductReviews .tbSiteReviews-FirstName {
+        background-color: #000000;
+        text-align: center;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        padding: 16px 0 0 0;
+        margin: 0 auto;
+    }
+
+    #tbProductReviews .tbSiteReviews-FirstName, #tbProductReviews .tbSiteReviews-FirstName span {
+        font-size: 26px;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 26px;
+    }
+
+    /* The Modal (background) */
+    #tbProductReviews .tb-review-popupmodal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1000000000000; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    #tbProductReviews .tb-review-popupmodal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 800px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    #tbProductReviews .tb-review-popup-container a {
+        text-decoration: none;
+    }
+
+    #tbProductReviews .tb-popup-close {
+        position: absolute !important;
+        right: -20px !important;
+        top: -20px !important;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 1) !important;
+        line-height: 28px !important;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 21px !important;
+        color: white !important;
+        background: black !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        width: 35px !important;
+        height: 35px !important;
+        outline: none !important;
+        cursor: pointer !important;
+        text-decoration: none !important;
+        text-align: center !important;
+        z-index: 1000000;
+        opacity: 1;
+        text-shadow: none;
+        float: none;
+    }
+
+    #tbProductReviews .tb-review-popup-container {
+        float: left;
+        width: 100%;
+        background: #fff;
+        border-radius: 6px;
+    }
+
+    #tbProductReviews .tb-review-popup-container * {
+        font-family: arial, helvetica neue, helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-style: normal !important;
+        font-size: 14px;
+        line-height: normal !important;
+        color: #484848;
+        border: none;
+        font-weight: normal !important;
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+    #tbProductReviews .tb-review-popup-container * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #tbProductReviews .tb-review-popup-container span {
+        font-size: 13px;
+    }
+
+    #tbProductReviews .tb-review-popup-left {
+        float: left;
+        width: 65%;
+        padding: 25px;
+        text-align: center;
+        min-height: 450px;
+        position: relative;
+    }
+
+    #tbProductReviews .tb-review-popup-left-image {
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    #tbProductReviews .tb-review-helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    #tbProductReviews .tb-review-popup-left img {
+        max-width: 100%;
+        height: auto;
+        max-height: 500px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    #tbProductReviews .tb-review-popup-right {
+        float: left;
+        width: 35%;
+        margin: 25px;
+        min-height: 450px;
+        position: relative;
+    }
+
+    #tbProductReviews .tb-review-popup-userdetail {
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tb-review-popup-username {
+        font-size: 16px;
+        font-weight: bold !important;
+        float: left;
+        width: 65%;
+    }
+
+    #tbProductReviews .tb-review-popup-usertype {
+        float: left;
+        width: 125px;
+        box-shadow: 0 0 5px rgba(6, 8, 8, 0.25);
+        text-align: center;
+        padding: 7px 0;
+        font-size: 13px;
+        border-radius: 4px;
+    }
+
+    #tbProductReviews .tb-review-popup-usertype i {
+        color: #6abb60;
+        margin-right: 6px;
+        font-size: 14px;
+        font-family: fontawesome;
+    }
+
+    #tbProductReviews .tb-review-popup-userrating {
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tbProductReview-totalStarRatingIcon, .tbSiteReviews-help ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 0px;
+        position: relative;
+        list-style: none;
+    }
+
+    #tbProductReviews .tbProductReview-totalStarRatingIcon li, .tbSiteReviews-help ul li {
+        display: inline-block;
+    }
+
+    #tbProductReviews .tb-review-popup-usertitle {
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+        font-weight: bold !important;
+        font-size: 16px;
+    }
+
+    #tbProductReviews .tb-review-popup-usercomment {
+        float: left;
+        width: 100%;
+        line-height: 20px !important;
+        margin-bottom: 30px;
+    }
+
+    #tbProductReviews .tb-client-popup-location {
+        font-size: 12px;
+        color: #676767;
+        padding: 0 0 12px 0px;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-button {
+        padding: 11px 15px;
+        background: #18784c;
+        color: #fff;
+        border-radius: 4px;
+        line-height: normal;
+        font-size: 14px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-container {
+        float: left;
+        width: 100%;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-image {
+        float: left;
+        box-shadow: 0 0 5px rgba(6, 8, 8, 0.25);
+        padding: 5px 7px;
+        margin-left: 3px;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-image img {
+        max-width: 90px;
+        height: auto;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-content {
+        overflow: hidden;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 20px !important;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-content p {
+        margin: 10px 0 !important;
+        font-weight: bold !important;
+        text-transform: capitalize;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-Footer {
+        float: left;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(6, 8, 8, 0.25);
+        margin-top: 10px;
+        padding: 10px 10px 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    #tbProductReviews .tb-review-popupmodal .tb-review-popup-admincomment-Footer {
+        padding: 10px;
+    }
+
+    #tbProductReviews .tbSiteReviews-shareText {
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-help {
+        float: left;
+    }
+
+    #tbProductReviews #tbQuestionSection .tbSiteReviews-questionContainerEachFooter .tbSiteReviews-help {
+        margin: 0;
+    }
+
+    #tbProductReviews .tbPullRight {
+        float: right;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-Footer .tbProductReview-totalStarRatingIcon li a {
+        background: #999;
+        padding: 0;
+        border-radius: 50%;
+        width: 23px;
+        height: 23px;
+        display: block;
+        text-align: center;
+        margin-right: 2px;
+        transition: 0.3s all;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-Footer .tbProductReview-totalStarRatingIcon li a i {
+        font-size: 12px !important;
+        line-height: 24px !important;
+        color: #fff;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-Footer .targetbay-review-voting a i {
+        font-size: 17px;
+        color: #999;
+        font-family: fontawesome;
+    }
+
+    #tbProductReviews .tb-more-comments {
+        display: none;
+    }
+
+    #tbProductReviews .tb-more-comments.tb-review-popup-admincomment-open {
+        display: block;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-open .tb-review-popup-admincomment-container {
+        border-top: 1px solid #ddd;
+        padding-top: 20px;
+        margin-top: 5px;
+    }
+
+    #tbProductReviews .tb-review-popup-right.tb-review-popup-right-scroll {
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        height: calc(100vh - 26vh);
+    }
+
+    #tbProductReviews .tb-review-popup-comment-scroll {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #tbProductReviews .tb-review-popup-admincomment-container.tb-more-comments {
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    @media (max-width: 479px) {
+        #tbProductReviews .tb-review-popup-left, #tbProductReviews .tb-review-popup-right {
+            width: 100%;
+        }
+
+        #tbProductReviews .tb-review-popupmodal-content {
+            width: calc(100% - 20px);
+        }
+
+        #tbProductReviews .tb-review-popup-container {
+            height: 400px;
+        }
+
+        #tbProductReviews .tb-review-popup-left {
+            min-height: 150px;
+            height: 150px;
+            padding: 5px;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+            min-height: 250px;
+            height: 250px;
+            margin: 0;
+            padding: 5px;
+            overflow: hidden;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #tbProductReviews .tb-review-popup-comment-scroll {
+            overflow-y: initial;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-Footer {
+            position: relative;
+            box-shadow: none;
+            border-top: 1px solid #ccc;
+        }
+
+        #tbProductReviews .tbSiteReviews-help {
+            margin-bottom: 10px;
+        }
+
+        #tbProductReviews .tb-review-popup-usercomment {
+            margin-bottom: 0px;
+        }
+
+        /* #tbProductReviews .tb-review-popup-left-image { background-size: cover; } */
+        #tbProductReviews .tb-review-popup-usertitle {
+            font-size: 14px;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-Footer .tbPullRight {
+            float: left !important;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-Footer .tbSiteReviews-shareText {
+            margin-bottom: 5px;
+        }
+
+        #tbProductReviews .tb-popup-close {
+            right: -10px !important;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        #tbProductReviews .tb-review-popup-left {
+            width: 100%;
+            margin: 0;
+            min-height: 200px;
+            padding: 10px;
+        }
+
+        #tbProductReviews .tb-review-popup-left-image {
+            height: 350px;
+        }
+
+        #tbProductReviews .tb-review-popupmodal-content {
+            width: 90%;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #tbProductReviews .tb-review-popup-left, .tb-review-popup-right {
+            width: 100%;
+        }
+
+        #tbProductReviews .tb-review-popup-usertype {
+            float: right;
+        }
+
+        #tbProductReviews .tb-review-popup-left {
+            height: 150px;
+            min-height: initial;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+            width: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            height: 240px;
+            min-height: initial;
+            margin: 0;
+            padding: 10px;
+        }
+
+        #tbProductReviews .tb-review-popup-comment-scroll {
+            overflow-y: initial;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-Footer {
+            position: relative;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-image {
+            display: none;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-content {
+            padding: 0;
+        }
+
+        #tbProductReviews .tbPullRight {
+            float: left;
+        }
+
+        #tbProductReviews .tb-review-popup-container {
+            height: 400px;
+            padding: 10px;
+        }
+
+        #tbProductReviews .tb-review-popupmodal-content {
+            width: 630px;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1449px) {
+        #tbProductReviews .tb-review-popup-admincomment-image {
+            display: none;
+        }
+
+        #tbProductReviews .tb-review-popup-admincomment-content {
+            padding: 0;
+        }
+
+        #tbProductReviews .tbPullRight {
+            float: left;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+        / / height: 500 px;
+        }
+
+        #tbProductReviews .tb-review-popupmodal-content {
+            width: 1120px;
+        }
+
+        #tbProductReviews .tb-review-popup-left {
+            width: 620px;
+            border-right: 1px solid #ddd;
+            height: 500px;
+            white-space: nowrap;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+            width: 445px;
+        }
+
+        #tbProductReviews .tb-review-popup-comment-scroll {
+            height: 310px;
+        }
+
+        #tbProductReviews .tb-review-popupmodal {
+            padding-top: 50px;
+        }
+    }
+
+    @media (min-width: 1450px) {
+        #tbProductReviews .tb-popup-close {
+            line-height: 42px !important;
+            font-size: 35px !important;
+            width: 46px !important;
+            height: 46px !important;
+        }
+
+        #tbProductReviews .tb-review-popup-container {
+        / / height: 500 px;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+        / / height: 500 px;
+        }
+
+        #tbProductReviews .tb-review-popupmodal-content {
+            width: 1300px;
+        }
+
+        #tbProductReviews .tb-review-popup-left {
+            width: 735px;
+            border-right: 1px solid #ddd;
+            height: 500px;
+            white-space: nowrap;
+        }
+
+        #tbProductReviews .tb-review-popup-right {
+            width: 510px;
+        }
+
+        #tbProductReviews .tb-review-popup-comment-scroll {
+            height: 310px;
+        }
+    }
+
+    @media (min-width: 769px) {
+        #tbProductReviews ul.tbTabMenu {
+            position: relative;
+        }
+
+        #tbProductReviews ul.tbTabMenu .tb-sort-reviews {
+            position: absolute;
+            right: 0;
+            height: 100%;
+        }
+
+        #tbProductReviews ul.tbTabMenu .tb-sort-reviews div {
+            height: 100%;
+            width: 100%;
+            display: table;
+        }
+
+        #tbProductReviews ul.tbTabMenu .tb-sort-reviews div * {
+            vertical-align: middle;
+            height: 100% !important;
+            display: table-cell;
+        }
+
+        #tbProductReviews .tb-sort-reviews label {
+            padding-right: 5px;
+        }
+    }
+
+    #tbProductReviews .tb-branding {
+        float: right;
+    }
+
+    #tbProductReviews .tb-branding .tb-logo-title a {
+        font-family: arial, sans-serif;
+        color: #333 !important;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+    }
+
+    #tbProductReviews .tb-branding span {
+        float: left;
+    }
+
+    #tbProductReviews .tb-branding span.tb-logo-icon {
+        background: #000000;
+        border-radius: 50%;
+        margin-left: 6px;
+    }
+
+    #tbProductReviews .tb-branding .tb-logo-title {
+        margin: 3px 0 0 0;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewSearchInput {
+        font-family: Arial, FontAwesome;
+        border-left: 0;
+        border-radius: 25px 0px 0px 25px;
+        height: 45px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        width: calc(80% - 40px);
+        background: #fff;
+        color: #333;
+        float: left;
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewSearchButton {
+        border: 1px solid #ddd;
+        background-color: #ddd;
+        border-left: 0;
+        border-radius: 0 25px 25px 0;
+        height: 45px;
+        padding: 12px;
+        color: #000;
+        float: left;
+        margin-right: 5px !important;
+        margin-left: -20px !important;
+    }
+
+    #tbProductReviews .tbReviewSearch {
+        padding: 15px 15px 15px 15px;
+        width: 100%;
+        float: left;
+        display: none;
+    }
+
+    @media (min-width: 1025px) {
+        #tbProductReviews .tbReviewSearch {
+            width: 55%;
+        }
+    }
+
+    #tbProductReviews .tbQaSearch {
+        padding: 15px 15px 15px 15px;
+        width: 100%;
+        float: left;
+        display: none;
+    }
+
+    @media (min-width: 1025px) {
+        #tbProductReviews .tbQaSearch {
+            width: 55%;
+        }
+    }
+
+    #tbProductReviews .tbSiteReviews-tbReviewSearchButton i {
+        color: #000;
+    } </style>
+</head>
+<body>
+<div id="tbProductReviews">
+    <div class="tbProductReviews-mainContainer">
+        <div class="tbProductReviews-Header">
+            <div class="tbProductReviews-Heading">
+                <span class="tbProductReviews-HeadingTitle">Product Reviews</span>
+            </div>
+        </div>
+        <div class="tbProductReviews-tbProductReviewData">
+            <div class="tbrow">
+                <div class="tbProductReviewData-Rating tbTextCenter tbGrid-4 tbFullWidth">
+                    <div class="tbProductReview-totalRating tbTextCenter">
+                        {{CalcRate .Total.TotalNum .Total.TotalReviewRating}}/{{.Total.MaxReviewRating}}
+                    </div>
+
+                    <div class="tbProductReview-totalStarRating">
+                        <ul class="tbProductReview-totalStarRatingIcon tbTextCenter">
+                            {{/* 根据比分生成对应星 */}}
+                            {{- range $val := CreateStarClass .Total.TotalNum .Total.TotalReviewRating }}
+                            <li><i class="fa {{$val}} fa-lg" aria-hidden="true"></i></li>
+                            {{- end }}
+                        </ul>
+                    </div>
+
+                    <div class="tbProductReview-totalProductRating tbTextCenter">
+                        {{.Total.TotalNum}} Reviews
+                    </div>
+                </div>
+                <div class="tbProductReviews-progress tbGrid-4 tbFullWidth">
+                    <table class="tbProductReviews-progressMain tbTextCenter">
+                        <tbody>
+                        <tr>
+                            <td class="tbProgressStarHeading">5</td>
+                            <td class="tbProgressStarIcon"><i class="fa fa-star" aria-hidden="true"></i></td>
+                            <td class="tbProgressStarProgress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100"
+                                         style="width:{{CalcRatingRate .Total.TotalNum 5}}%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tbProgressStarValue">({{CalcRatingNum 5}})</td>
+                        </tr>
+                        <tr>
+                            <td class="tbProgressStarHeading">4</td>
+                            <td class="tbProgressStarIcon"><i class="fa fa-star" aria-hidden="true"></i></td>
+                            <td class="tbProgressStarProgress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100"
+                                         style="width: {{CalcRatingRate .Total.TotalNum 4}}%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tbProgressStarValue">({{CalcRatingNum 4}})</td>
+                        </tr>
+                        <tr>
+                            <td class="tbProgressStarHeading">3</td>
+                            <td class="tbProgressStarIcon"><i class="fa fa-star" aria-hidden="true"></i></td>
+                            <td class="tbProgressStarProgress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100"
+                                         style="width: {{CalcRatingRate .Total.TotalNum 2}}%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tbProgressStarValue">({{CalcRatingNum 3}})</td>
+                        </tr>
+                        <tr>
+                            <td class="tbProgressStarHeading">2</td>
+                            <td class="tbProgressStarIcon"><i class="fa fa-star" aria-hidden="true"></i></td>
+                            <td class="tbProgressStarProgress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100"
+                                         style="width: {{CalcRatingRate .Total.TotalNum 2}}%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tbProgressStarValue">({{CalcRatingNum 2}})</td>
+                        </tr>
+                        <tr>
+                            <td class="tbProgressStarHeading">1</td>
+                            <td class="tbProgressStarIcon"><i class="fa fa-star" aria-hidden="true"></i></td>
+                            <td class="tbProgressStarProgress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100"
+                                         style="width:{{CalcRatingRate .Total.TotalNum 1}}%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="tbProgressStarValue">({{CalcRatingNum 1}})</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tbGrid-4 tbFullWidth tbFullBorder">
+                    <div class="tbTextCenter">
+                        <div class="tbProductReviews-reviewButtonSection tbTextCenter">
+                            <div class="tbTextCenter">
+                                Rate it now.
+                            </div>
+                            <button class="tbProductDefaultButton tbProductDefaultButtonColor" type="button"
+                                    onclick="tbrForm.tbReviewShow('review','scroll',0)">Write a Review
+                            </button>
+                        </div>
+                        <div class="tbProductReviews-questionButtonSection tbTextCenter">
+                            <div class="tbTextCenter">
+                                Have any questions?
+                            </div>
+                            <button id="tbProductReviews-questionFormButton"
+                                    class="tbProductDefaultButton tbProductDefaultButtonColor" type="button"
+                                    onclick="tbrForm.tbReviewShow('qa','scroll',0)">Ask a Question
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tbProductReviews-reviewForm" class="tbProductReviews-tbReviewForm">
+            <div class="c-loader u-foreground-accent-reverse">
+                <div class="c-loader_figure"></div>
+            </div>
+            <div class="tbProductReviews-formErrorLabel tbTextCenter targetbayProductReviewsError"
+                 style="display:none;">
+                <span class="tbSiteReviews-errorMsgLbl tbTextCenter">There was a problem with your submission.</span>
+                <p class="tbSiteReviews-errorMsg">Errors have been <b>highlighted</b> below.</p>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormHeading">
+                Write a review
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="targetbayRating" class="tbSiteReviews-tbReviewFormLabel">Score*</label>
+                <div id="tbRatingStar">
+                    <input type="radio" id="targetbay_star5" name="targetbayRating" value="5"/>
+                    <label class="targetbay_full" for="targetbay_star5" title="5 stars"></label>
+                    <input type="radio" id="targetbay_star4" name="targetbayRating" value="4"/>
+                    <label class="targetbay_full" for="targetbay_star4" title="4 stars"></label>
+                    <input type="radio" id="targetbay_star3" name="targetbayRating" value="3"/>
+                    <label class="targetbay_full" for="targetbay_star3" title="3 stars"></label>
+                    <input type="radio" id="targetbay_star2" name="targetbayRating" value="2"/>
+                    <label class="targetbay_full" for="targetbay_star2" title="2 stars"></label>
+                    <input type="radio" id="targetbay_star1" name="targetbayRating" value="1"/>
+                    <label class="targetbay_full" for="targetbay_star1" title="1 star"></label>
+                </div>
+                <div id="targetbay_rating_error" style="display:none;" class="targetbayProductReviewsError">
+                    Please give rating to this product
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="targetbayReviewUsername" class="tbSiteReviews-tbReviewFormLabel">Name*</label>
+                <input type="text" id="targetbayReviewUsername" name="targetbayReviewUsername"
+                       class="tbSiteReviews-tbReviewFormInput" tabindex="101" maxlength="100"/>
+                <div id="targetbay_review_name_error" style="display:none;" class="targetbayProductReviewsError">
+                    Name cannot be empty.
+                </div>
+                <div id="targetbay_review_name_invalid" style="display:none;" class="targetbayProductReviewsError">
+                    Invalid Name.
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="targetbayReviewEmail" class="tbSiteReviews-tbReviewFormLabel">Email*</label>
+                <input type="text" id="targetbayReviewEmail" name="targetbayReviewEmail"
+                       class="tbSiteReviews-tbReviewFormInput" tabindex="102"/>
+                <div id="targetbay_review_email_error" style="display:none;" class="targetbayProductReviewsError">
+                    Email cannot be empty.
+                </div>
+                <div id="targetbay_review_email_invalid" style="display:none;" class="targetbayProductReviewsError">
+                    Invalid Email.
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup"><label for="" class="tbSiteReviews-tbReviewFormLabel">Upload
+                Image</label>
+                <div class="tbSiteReviews-tbUserFileUpload">
+                    <input type="file" id="targetbayReviewUpload"
+                           name="targetbayReviewUpload[]"
+                           class="inputfile inputfile-6" multiple=""
+                           tabindex="103" accept=".png,.jpg"
+                           placeholder="Please upload file less than 5 MB.">
+                    <label for="targetbayReviewUpload">
+                        <span id="upload_files_count">Max 5 MB</span>
+                        <strong><i class="fa fa-upload" aria-hidden="true"></i> Choose Pictures to Upload</strong>
+                    </label>
+                </div>
+                <div class="tbSiteReviews-clientUploadImage"></div>
+                <div id="targetbay_review_upload_error" style="display:none;" class="targetbayProductReviewsError">
+                    Please upload file less than 5 MB.
+                </div>
+                <div id="targetbay_review_upload_filetype_error" style="display:none;"
+                     class="targetbayProductReviewsError"> Please upload files of type image.
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="targetbayReviewTitle" class="tbSiteReviews-tbReviewFormLabel"> Title* </label>
+                <input type="text" id="targetbayReviewTitle" name="targetbayReviewTitle"
+                       class="tbSiteReviews-tbReviewFormInput" tabindex="104"/>
+                <div id="targetbay_review_title_error" style="display:none;" class="targetbayProductReviewsError">
+                    Review Title cannot be empty.
+                </div>
+                <input type="hidden" name="title_validator" id="title_validator" value="yes"/>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="targetbayReview" class="tbSiteReviews-tbReviewFormLabel">Review*</label>
+                <textarea type="text" id="targetbayReview" name="targetbayReview"
+                          class="tbSiteReviews-tbReviewFormInput" tabindex="105"></textarea>
+                <div id="targetbay_review_error" style="display:none;" class="targetbayProductReviewsError">
+                    Review cannot be empty.
+                </div>
+            </div>
+            <div class="tbrow tbSiteReviews-tbReviewFormButton">
+                <div class="tbGrid-6">
+                    <button id="tbProductReviews-FormCancelButton"
+                            class="tbSiteDefaultButton tbSiteDefaultCancelButtonColor" type="button"
+                            onclick="tbrForm.tbCloseForm('review');" tabindex="107">Cancel
+                    </button>
+                </div>
+                <div class="tbGrid-6">
+                    <button class="tbSiteDefaultButton tbSiteDefaultButtonColor tbPullRight" type="button"
+                            onclick="tbrForm.tbReviewClick()" tabindex="106">Send
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="targetbay_review_success" style="display:none;" class="targetbaysuccess tbTextCenter">
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 52">
+                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+            <span>Feedback has been posted successfully.</span>
+        </div>
+        <div id="tbProductReviews-questionForm" class="tbProductReviews-tbReviewForm">
+            <div class="c-loader u-foreground-accent-reverse">
+                <div class="c-loader_figure"></div>
+            </div>
+            <div class="tbProductReviews-formErrorLabel tbTextCenter targetbayProductReviewsError"
+                 style="display:none;">
+                <span class="tbSiteReviews-errorMsgLbl tbTextCenter">There was a problem with your submission.</span>
+                <p class="tbSiteReviews-errorMsg">Errors have been <b>highlighted</b> below.</p>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormHeading">
+                ASK A QUESTION
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="tbName" class="tbSiteReviews-tbReviewFormLabel">Name*</label>
+                <input type="text" id="targetbayQuestionUsername" name="targetbayQuestionUsername"
+                       class="tbSiteReviews-tbReviewFormInput" tabindex="101"/>
+                <div id="targetbay_question_name_error" style="display:none;" class="targetbayProductReviewsError">
+                    Name cannot be empty.
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="tbEmail" class="tbSiteReviews-tbReviewFormLabel">Email*</label>
+                <input type="text" id="targetbayQuestionEmail" name="targetbayQuestionEmail"
+                       class="tbSiteReviews-tbReviewFormInput" tabindex="102"/>
+                <div id="targetbay_question_email_error" style="display:none;" class="targetbayProductReviewsError">
+                    Email cannot be empty.
+                </div>
+                <div id="targetbay_question_email_invalid" style="display:none;" class="targetbayProductReviewsError">
+                    Invalid Email.
+                </div>
+            </div>
+            <div class="tbSiteReviews-tbReviewFormGroup">
+                <label for="tbReview" class="tbSiteReviews-tbReviewFormLabel">Question*</label>
+                <textarea type="text" id="targetbayQuestion" name="targetbayQuestion"
+                          class="tbSiteReviews-tbReviewFormInput" tabindex="103"></textarea>
+                <div id="targetbay_question_error" style="display:none;" class="targetbayProductReviewsError">
+                    Question cannot be empty.
+                </div>
+            </div>
+            <div class="tbrow tbSiteReviews-tbReviewFormButton">
+                <div class="tbGrid-6">
+                    <button id="tbProductReviews-QuestionCancelButton"
+                            class="tbSiteDefaultButton tbSiteDefaultCancelButtonColor" type="button"
+                            onclick="tbrForm.tbCloseForm('qa');" tabindex="105">Cancel
+                    </button>
+                </div>
+                <div class="tbGrid-6">
+                    <button class="tbSiteDefaultButton tbSiteDefaultButtonColor tbPullRight" type="button"
+                            onclick="tbrForm.tbReviewClick()" tabindex="104">Post
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="targetbay_question_success" style="display:none;" class="targetbaysuccess tbTextCenter">
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 52">
+                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+            <span>Question has been posted successfully.</span>
+        </div>
+        <div class="hidden">
+            <input type="hidden" id="targetbayTemplateType"/>
+        </div>
+        <div class="tbProductReviews-tbTabNavBar">
+            <ul class="tbTabMenu">
+                <li><a href="javascript:void(0)" class="tb_tablinks active"
+                       onclick="tbrForm.tbTabClick('tbReviewSection','noscroll');" id="defaultOpen">Reviews ({{
+                    .Total.TotalNum }})</a></li>
+                <li><a href="javascript:void(0)" class="tb_tablinks"
+                       onclick="tbrForm.tbTabClick('tbQuestionSection','noscroll');">Questions ({{ .QuestionTotal
+                    }})</a></li>
+                <li class="tb-sort-reviews">
+                    <div>
+                        <label for="tb-sort-reviews">Sort by:</label>
+                        <select class="form-control" id="tb-sort-reviews">
+                            {{ MakeReviewSortSelected }}
+                        </select>
+                        <select class="form-control" id="tb-sort-qa" style="display:none;">
+                            {{ MakeQuestionSortSelected }}
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <input type="hidden" id="tb-sort-for" name="tb-sort-for" value="tb_reviews"/>
+            <div id="tbReviewSection" class="tbTabContent" style="display:block;">
+                <div class="tbReviewSearch">
+                    <input type="search" maxlength="150" class="tbSiteReviews-tbReviewSearchInput"
+                           placeholder=" Search Reviews"
+                           onsearch="tbrForm.reviewSearch(document.getElementById('review_search_text').value)"
+                           id="review_search_text" name="review_search_text" value=""/>
+                    <button class="tbSiteReviews-tbReviewSearchButton" type="submit"
+                            onclick="tbrForm.reviewSearch(document.getElementById('review_search_text').value)"><i
+                            class="fa fa-search"></i></button>
+                    <button class="tbProductDefaultButton tbProductDefaultButtonColor" type="button"
+                            onclick="tbrForm.clearReviewSearch()"
+                            style="margin-left: 10px;height: 45px !important;display: block;">Clear
+                    </button>
+                </div>
+                {{/* 无数据时 */}}
+                {{if eq .Total.TotalNum 0}}
+                <div class="targetbay-no-lists">
+                    <input onclick="tbrForm.tbReviewShow('review','scroll',0);" type="button"
+                           value="Be the first to write a review"
+                           class="tbProductDefaultButton tbProductDefaultButtonColor">
+                </div>
+                {{ end }}
+
+                <!--    评论开始-->
+                {{ range $i, $v := .List }}
+                <div class="tbSiteReviews-reviewContainerEach">
+                    <div class="tbrow">
+                        <div class="tbGrid-1 tbSiteReviews-tbMobileHide tb-letter-sec">
+                            <div class="tbSiteReviews-FirstName">
+                                <span class="tb-cr-blue">{{.UserName | FirstWord}}</span>
+                            </div>
+                        </div>
+                        <div class="tbGrid-11 tbFullWidth tb-review-main-cont" id="{{ .ReviewTitle }}-{{$i}}">
+                            <div class="tbSiteReviews-tbClientPostDetails">
+                                <div class="tbrow">
+                                    <div class="tbSiteReviews-tbClientName tbGrid-9">
+                                        <span> {{ .UserName }} </span>
+                                    </div>
+                                    <div class="tbSiteReviews-tbClientPostDate tbGrid-3">
+                                        {{/* 格式化时间 第二个参数为格式 */}}
+                                        <span class="tbPullRight"> {{ FormatDate .AddDate "01/02/2006" }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tbSiteReviews-tbClientPostTitleArea">
+                                <div class="tbrow">
+                                    <div class="tbGrid-9 tbFullWidth">
+                                        <div class="tbSiteReviews-tbClientRating">
+                                         <span>
+                                          <ul class="tbProductReview-totalStarRatingIcon">
+                                            <!-- 多少颗星就多少行 -->
+                                              {{- range $val := Iterate .ReviewRating }}
+                                                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                              {{- end }}
+                                          </ul> </span>
+                                        </div>
+                                    </div>
+                                    <div class="tbSiteReviews-tbClientTitle tbGrid-12 tbFullWidth">
+                                        {{ .ReviewTitle }}
+                                    </div>
+                                    <div class="tbSiteReviews-tbClientDescription tbGrid-12">
+
+                                        <div class="tbSiteReviews-tbClientDescription tbGrid-12"> {{ .Review }}
+
+                                            {{/* 有上传图片时显示 */}}
+                                            {{ if .UploadFileThumb }}
+                                            <div class="tbSiteReviews-tbUploadedImageView">
+                                                <a href="javascript:"
+                                                   onclick="tbrForm.showReviewImagePopup('{{$i}}', '{{$v.UniqueId}}');">
+                                                    <img src="{{ .UploadFileThumb }}"
+                                                         class="tbImageResponsive" alt="Client image" width="100%"
+                                                         height="auto">
+                                                </a>
+                                            </div>
+                                            {{ end }}
+                                        </div>
+                                    </div>
+
+                                    {{/* 有回复时显示 */}}
+                                    {{ if .ReplyList }}
+                                    <div class="tbGrid-12">
+                                        <div class="tbSiteReviews-reviewCommentNotify">
+                                            <span class="tbQuestionLabel"
+                                                  id="comment-toggle-{{$v.UniqueId}}"
+                                                  onclick="tbrForm.tbCommentToggle('{{$v.UniqueId}}')"> {{ len .ReplyList }} COMMENT(S) </span>
+                                        </div>
+
+                                        <div id="comment-toggl-list-{{$v.UniqueId}}"
+                                             style="transition-duration: 0.2s; display: block;">
+                                            {{ range $ri, $rv := .ReplyList }}
+                                            <div class="tbSiteReviews-reviewCommentContainer">
+                                                <div class="tbrow">
+                                                    <div class="tbSiteReviews-tbMobileHide tb-letter-sec">
+                                                        <div class="tbProductReviews-clientLogo">
+                                                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAgICAgICAgICAgMDAwMDAwMDAwP/2wBDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wgARCACeAJ4DAREAAhEBAxEB/8QAHQABAAICAwEBAAAAAAAAAAAAAAcIAQYEBQkCA//EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABs2yAAAAAAAAAAAAAAAAAAAAAAAAMGQAAAAAAAcQuMtj168qeldEyAAAAAYNfNQLoLeFQMFGmYEAAAAPxNXNQOvMnqys6KAIKSiaAAAcE1E1U/EAweo62HUAVpSmiAAAQmAADB6XrZ9QBXRKUoAABCYAABIR6/Nc0H4nmazqwAABCYAAAL2LeFRVBKmJkAAAhMAAAls9UGtiBGCUITpAAACEwADJZk9B2tsABo6U0SIDIABCYBgnEv2sxKAAAIdSoCR+ACEwCSj2Aa+wAAAAcY8umesAITALdL6JqAAAAAKAMw6AQmAela2iUAAAAAVXSoyAQmD5PU5ZCAAAAABFhTBAITAPkAAAAGTvTaTYj9QCEwAAAADnG0m0HNAABCYAAAMHONuNvPoAAAH//xAApEAAABQMEAQQCAwAAAAAAAAAAAQMFBgIEIAcRFjAQEhMUQBUiMUFQ/9oACAEBAAEFAv8ARL9h/f0Pdp92O6fJ0poWFjbU3rM1OFEmgqjan2rOVukFnC4WGkkdSNLCdsCbXedNddCZLOqdIWuV1/Om3o4bhqJTScdzWuUUAs7VGK1K1Tw0ysXJvjWGpSy34/P+c9L5HQ6M2Gojskg290YkNxGXa3XSukPCilCVD05VO7p36UyutTzOJWlUn3w+KXMpcW5pbWlHw+xVtekHBvu2u77CIzON6YPDuGVlb2Cwwe4+3vyD3C3Zn643AHyRFHYOxRwuh7hTS7h6jLqxHnD29N0kxEVJdSyKVwle2/xLzLR9v9957J3Z/EkWWkzf8WNdmptnujlE5BHrON8qjY5VGxyqNjlUbHKo2OVRscqjY5VGxyqNjlUbHKo2OVRsTN6ZXFgy2IbENiGxDYhsQ2IbENiGxD07hFsuFQk1W1ApopoLuStl1wi0kErdFH6CSaVQt6Wuk+n/xAAZEQEBAAMBAAAAAAAAAAAAAAABQBEwYHD/2gAIAQMBAT8B4TEZSyMj4GSG15T/xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAECAQE/AUh//8QAQhAAAgEBBAQKBggEBwAAAAAAAQIDBAAFETESEyFRICIwMjVBYoGU0hQjUmFxkRAzQEJygpKhBiRjsURQVHODk6L/2gAIAQEABj8C/wAx4uLfhGP9rYZHcdh+X2GOnjDTVEzrHFTwrrJpHY4KqovWTaOrv8ayZsGF3I+MMW4VMi/XSbwOIO1nYJT0dNCoGAEcMa7O5dtjHV0FNMD1mJQ496yKA6nvtJX3U0lRSJxpaZ+PUQJ1sjD66Jev7w9/LYKda25Mu9srYaWrT2U2fNszao/iSpQPKZHpLu0hjq1TZVVAx++7nQB6sG38GOupEEdJXlg0a8yGrHGYLuWZeMBvB5LSdgi72OFsIF0z7TbF+XOP7W9Y5I9kbE+Q+m6NDdVaX+56ZPrP/fBZjzkraQp8WfQOH5GPIescDs5t+kbbYQJodt9rdy5D97aUjs57Rx4MUdesaxTytW0AV9J1pqtVk0ZVwwRtZi2Z53BoqdIpTC1Trp5wp1KatdGKJ3yDO8mI/DyGJ2neeGt0zN/P3OixYHOahxwp5hvMfMb3gHr4K3UpDVNcyO656umicMXbdrHXBe/dy8N5Q8aPDU1kOeupHZWlQdtSoZfeLQ1MDB4aiJJomGTJIodT8j9LyyMFjjVndjkqqMWJ+AFqy8G2CeX1Q9mCMauEf9a/YB/C9UJJDEkk13TqC4jhXF5KWcj6tVzjJ/Du+ma47uk02J1d4VCHioAeNSIetyeeeobPhy4hGlFd9OVe8KsfcQ5QRn/UTdW4bbLT3dR09JGqhfUxqrNh1yPhpSMcMz9MnqYqauwxirYowrh+oS6OGtjbrBtJRVsZjmjP5XQ82SNvvRvyoVQWZjgqqCzMTkFUbSTaOpvPG6KE4NhImlXTLhiNXAdkQbe/yNo7uu2LVwJizMx0pZpG500z7NORuCsVYhWSPHUVMWCzQk54EghkPWp2WaWNPT6MYnX06HTRf60HGZO7SHJpUCMXfdz/AONqwRrE9qmg2STe47F99lkp4PSq8AaV4VYEk+PXqV5lMp3Lt3k8i80a+gVp2+kU6jQkb+vBsST4jBvfbSqotZTY4LWQYvB7g+wNET2uQueimi18D1QkniPNeGBWnkDdnRTbYKoCqoAAAwAA2AADIDk5IJkWWKVSkkbjFWVthBFqulIK+j1M0Oicxq5GXDuw4d4XiwxWgohEh3T1r4Aj/hhcd/K1LAYJWRw1a/Fxq5e8yxE9/DesYYPeVbNNtz1MGFNF+U6ssPxcrdleB9XJLSSHsyrrY8fg0Z+fDuWmkva74JIbvp1kiapjV0k0cXDAnENpZ26bu3xcXmt03dvi4vNbpu7fFxea3Td2+Li81um7t8XF5rdN3b4uLzW6bu3xcXmt03dvi4vNbpu7fFxea3Td2+Li81um7t8XF5rdN3b4uLzWqYaS8aKrmE1M6RwzpI+KyriQFPUvDytkLZC2QtkLZC2QtkLZC2QtgFxO4DE/K2JQRLvkz/TnbFxrT2ti/pFsFVVG5QB/bl/Vxkj2jsX9RtjPJj2Y/MberjVffm36jt+wetnWIfgkdv2XRsNFw775gw+WmqpbZlyP/8QAKBABAAEDAwQCAgIDAAAAAAAAAREAITFBYXEgMFGBkfEQQKHBULHw/9oACAEBAAE/If8AIhSBDIjOYMU2ls5KDlQ/orIOHXuId1BQYRQ4WGFxGXJaaIWhimxZPapXVXnpESnRLGhIOzmWGSXUR31JnuKAqgGVYDlbFTED1LXx/Smp4SvKkqmgh2sMy3CDombNxyUf89IFisT4MYZB2lI5oB/OanG4r3OUTu2bV/E+/wA7P8X1XLfpHEldGRs7RfS7Acv6C7xJSbINjmue6m9QUhwYOjF/FSkVr6opVmFiLCPSVaZXkDGJB7BVKKZRV5W/WTH+iRad8Qx6Q7jiEejUbzQu+8MO2rYCIjx6U70GhDkil/z2GCVJ2vEiiIlCWYCTsC7v6AI4obBgl2mDL4fybN+cJgrBRg8hf0EHdoQOnFoiHzOxUTMiPkIOUFVW/wCb2whFJYKS8y8l651LpzTiFk4bj3QcwtAISvYAlqbEeSluECa4kzpVKJvgB1p5dgAgAAOmZBZATYofBVs3qYx8mmbJtlle722/EJe1ccFJyaUj2itE6aa0SEWE9mIOTAMyQWOvNMVEGs5SrDHQ8BOj2DQ+7GMOK1LUdkDw6xgAgDtgDPgWl2iUyyTZMIptMOtdVTjMoeRzu9Ec3Za06pXWtIvoiwhud3GQYQNEj8HG/VcPDWo+6sKfNu17po0aNGjRo0aNGjUvchQZKZknbr2HwV9QV9QV9QV9QV9QV9QV9QV9QV9QUBEgxJOAK1AIulENiNYnhYl/k9rQQ6sBT0Dv/wDRY9AfU0KPgI9lPwUDHEJOZH8/oMzqs+NP96iKzoITtAZ5aIgs8Ix6i3Z//9oADAMBAAIAAwAAABBJJJJJJJJJJJJJJJJJJJJJJJJbJJJJJJJJbAbJJJJJJZIATpJJJLJZUAApJJJJJLEABJJJLJJLUABJJJJJJJOABJJJJJJJLALJJJJJJJMAVJJJJJJbgAA/JJJJbkAAAA9JJJOAAAAADJJJIAAAAABpJJUAAAAADJJLW222220pJJJJJJJJbJJJJJJJLZJJJJJJLJZJJJL/xAAgEQEAAgICAgMBAAAAAAAAAAABABEgMTBAEEEhUGBR/9oACAEDAQE/EPwh/XionQHvFK5zWOnOa6gcVzjWL89AfXlfXQC8Eua5gmsUuInGCwK4UuJXAb+hO89OoEqWSyWSyWSyWSyWSyWSyNV+A//EABkRAQEAAwEAAAAAAAAAAAAAAAFAETBgcP/aAAgBAgEBPxDhMxtJISHgbI7TlP/EACgQAQACAQIFBAMAAwAAAAAAAAERIQAxQSAwUWFxEIHB8ECRoVDh8f/aAAgBAQABPxD/ACPaAjGlW2d8UwthAXUIldPwImi3B9Ma6T8sgkFqgLl+oofELrD3MYMDc4QwRABSblwSw3jazFyIgJeQu3XE2VzIAMk4BAIiOiWPMBM8jCN0AecRekkSLqsRDSBjtmt/CVBsusaghOgZU2/hseBcIh7t9UAgARAREhEaRMn2lviHg8ohByiLtEvtHKV4nISPIE7poh8w6LiqWM+zpFRrafXQKalrsSaQ7vlc8LtKwEApRIrTI1TkIYbseLMXyBhTRkAg9BL8vY49cme1ENWFUFcCgUwBV6ASv6yHcIBTbXAFSM8D8/8AsH0X647ZJ43ozLDdVq/fEgiJIkI7jqYN8KkEJhqIvYABcLpaOZXUx1NgXPEzK3xHABJZqYKRVw2bJJERYWGvVjSy9FtHl2MfQgLvVqWDAFmBX8B2iMYYPYjxFkT0nvSoOLwdFJkr+BRtumZZBA+EogBmFyuA2BMCU+lWfWWLLQve2UkEShHL1Ki3lHJy3wgAOY2A/p2hCxZKDAIPwAZntgCEGNy2EoCJMXCUGGxwV4o+IDGgqMEhA0RwulGmIhB84ESRnU9xhHoiQ9HkqAqgAqrABaq0AYuqOOwqAgVi0RnBI6QLCU0rZAEjkEmmxpHfIkXkIGzI0jRkDC2/ZioQbR6LKnj0YcMajtqykbuw00XtYkKgAAg5bs60naAUa6jYiDiUGwgmcBCJC44w0LPREUs+FgV1J5hRhqAQGgG4oAnUnimhk1QFkS9aknfm2zho/wBiSWm/FMc1II6wx/cheQP1HpFi03m+PHjx48ePHjx48AXpgyqEpygvPGsqqtqsvljPrXxn1r4z618Z9a+M+tfGfWvjPrXxn1r4z618YRBMTB6NPsDlDeMBlctPuF65P0cLCux69iPTChHCCNgA56xLUqjnelVgo7oUukw1TR1dkwKtgE1MQtfW/Pe09v8AsGBqYhSNxIPlmXBOcUyDZZAd3O3Dbr/B45P/2Q=="
+                                                                 width="100" height="100" class="tbImageResponsive"
+                                                                 alt="Client image"></div>
+                                                    </div>
+                                                    <div class="tbFullWidth tb-review-main-cont">
+                                                        <div class="tbSiteReviews-tbClientPostDetails">
+                                                            <div class="">
+                                                                <div class="tbSiteReviews-tbClientName tbGrid-5 tbFullWidth">
+                                                                    <div class="tbProductReviews-clientLogo tbSiteReviews-tbMobileShow">
+                                                                        <img src="data:image/jpeg;base64,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"
+                                                                             width="100" height="100"
+                                                                             class="tbImageResponsive"
+                                                                             alt="Client image">
+                                                                    </div>
+                                                                    <span>  - {{ $rv.UserName }}  </span>
+                                                                </div>
+                                                                <div class="tbSiteReviews-tbClientPostDate tbGrid-7 tbFullWidth">
+                                                                    <span class="tbPullRight tbSiteReviews-tbadminReplay">#Reply</span>
+                                                                    <span class="tbPullRight"> {{ FormatDate $rv.AddDate "01/02/2006" }} </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tbSiteReviews-tbClientDescription tbGrid-12">
+                                                            {{ $rv.Content }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {{ end }}
+                                        </div>
+                                    </div>
+                                    {{ end }}
+                                    {{/* 评论回复结束 */}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tbGrid-12 tbSiteReviews-reviewContainerEachFooter">
+                            <div class="tbrow">
+                                <div class="tbGrid-6">
+                                    <div class="tbSiteReviews-help">
+                                        <span class="tb-product-review-vote-{{.UniqueId}}" {{ if eq $v.VoteUp 0
+                                              }}style="display:none;" {{end}}> <span
+                                                id="targetbay-review-yes-count-{{.UniqueId}}">{{ .VoteUp }} person found this helpful</span> </span>
+                                        <ul>
+                                            <li>
+                                                <div class="tbSiteReviews-clientlike-loader">
+                                                </div>
+                                                <div class="tbSiteReviews-clientlike targetbay-review-voting" data="yes"
+                                                     data-val="{{.UniqueId}}">
+                                                    <a href="javascript:void(0)">
+                                                        <i class="fa fa-thumbs-up" aria-hidden="true"></i> Helpful
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li style="display: none">
+                                                <div class="tbSiteReviews-clientUnlike targetbay-review-voting"
+                                                     data="no" data-val="{{.UniqueId}}">
+                                                    <a href="javascript:void(0)"><i class="fa fa-thumbs-down"
+                                                                                    aria-hidden="true"></i> Not Helpful
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tbGrid-6 tbTextCenter">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+
+                {{ range $i, $v := .List }}
+                {{ if $v.UploadFileThumb }}
+                {{/* 点击上传图片时，弹窗 */}}
+                <div id="user-image-{{$i}}-{{$v.UniqueId}}" class="tb-review-popupmodal" style="display:none;">
+                    <div class="tb-review-popupmodal-content">
+                            <span class="tb-popup-close close"
+                                  onclick="tbrForm.closeReviewImagePopup('{{$i}}','{{$v.UniqueId}}');">×</span>
+                        <div class="tb-review-popup-container">
+                            <div class="tb-review-popup-left">
+                                <div class="tb-review-popup-left-image"
+                                     style="background-image: url('{{$v.UploadFile}}');">
+                                </div>
+                            </div>
+                            <div class="tb-review-popup-right">
+                                <div class="tb-review-popup-userdetail">
+                                    <div class="tb-review-popup-username"> {{ $v.UserName }}</div>
+                                </div>
+                                <div class="tb-review-popup-userrating">
+                                    <ul class="tbProductReview-totalStarRatingIcon">
+                                        <!-- 多少颗星就多少行 -->
+                                        {{- range $val := Iterate $v.ReviewRating }}
+                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        {{- end }}
+                                    </ul>
+                                </div>
+                                <div class="tb-review-popup-comment-scroll">
+                                    <div class="tb-review-popup-usertitle"> {{ $v.ReviewTitle }}</div>
+                                    <div class="tb-review-popup-usercomment"> {{ $v.Review }}</div>
+
+                                    {{/* 弹窗显示-管理员回复 */}}
+                                    {{ range $ri, $rv := .ReplyList }}
+                                    <div class="tbGrid-12">
+                                        <div class="tb-review-popup-admincomment">
+                                            <div class="tb-review-popup-admincomment-container"
+                                                 style="margin-bottom: 8px">
+                                                <div class="tbrow">
+                                                    <div class="tb-review-popup-admincomment-image">
+                                                        <img src="data:image/jpeg;base64,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"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="tbFullWidth tb-review-main-cont">
+                                                    <div class="tb-review-popup-admincomment-content">
+                                                        <div class="tbSiteReviews-tbClientPostDetails">
+                                                            <div class="">
+                                                                <div class="tbSiteReviews-tbClientName tbGrid-5 tbFullWidth">
+                                                                    <div class="tbProductReviews-clientLogo tbSiteReviews-tbMobileShow">
+                                                                        <img src="data:image/jpeg;base64,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"
+                                                                             width="100" height="100"
+                                                                             class="tbImageResponsive"
+                                                                             alt="Client image">
+                                                                    </div>
+                                                                    <span style="font-size: 14px;font-weight: bold !important;">  - {{ $rv.UserName }}  </span>
+                                                                </div>
+                                                                <div class="tbSiteReviews-tbClientPostDate tbGrid-7 tbFullWidth">
+                                                                    <span class="tbPullRight tbSiteReviews-tbadminReplay">#Reply</span>
+                                                                    <span class="tbPullRight"> {{ FormatDate $rv.AddDate "01/02/2006" }} </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tbSiteReviews-tbClientDescription tbGrid-12"
+                                                             style="font-size: 13px;">
+                                                            {{ $rv.Content }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    {{ end }}
+                                    {{/* 结束回复 */}}
+                                </div>
+
+                                <div class="tb-review-popup-admincomment-Footer">
+                                    <div class="tbSiteReviews-help">
+                                            <span class="tb-product-review-vote-{{$v.UniqueId}}" {{ if eq $v.VoteUp 0
+                                                  }}style="display:none;" {{end}}>
+                                                <span class="targetbay-popup-review-yes-count-{{$v.UniqueId}}"> {{ $v.VoteUp }} person found this helpful</span>
+                                            </span>
+                                        <ul>
+                                            <li>
+                                                <div class="tbSiteReviews-clientlike targetbay-review-voting" data="yes"
+                                                     data-val="{{$v.UniqueId}}">
+                                                    <a href="javascript:void(0)">
+                                                        <i class="fa fa-thumbs-up" aria-hidden="true"></i> Helpful
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li style="display: none">
+                                                <div class="tbSiteReviews-clientUnlike targetbay-review-voting"
+                                                     data="no" data-val="{{$v.UniqueId}}">
+                                                    <a href="javascript:void(0)">
+                                                        <i class="fa fa-thumbs-down" aria-hidden="true"></i> Not Helpful
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tbSiteReviews-shareText tbPullRight"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+                {{ end }}
+                {{/* 弹窗结束 */}}
+
+                <div class="tbTextCenter tbSiteReviews-Footer tb_product_reviews_pagination">
+                    {{/* 分页数据 */}}
+                    {{if gt .Paginator.PageNums 1}}
+                    <ul class="pagination">
+                        {{if .Paginator.HasPrev}}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ .Paginator.PageLinkPrev }}" rel="prev">«</a>
+                        </li>
+                        {{else}}
+                        <li class="page-item disabled"><span class="page-link">«</span></li>
+                        {{end}}
+
+                        {{range $index, $page := .Paginator.Pages}}
+                        {{if $.Paginator.IsActive .}}
+                        <li class="page-item active"><span class="page-link">{{$page}}</span></li>
+                        {{else}}
+
+                        <li class="page-item">
+                            <a class="page-link" href="{{ $.Paginator.PageLink $page }}">{{$page}}</a>
+                        </li>
+                        {{end}}
+
+                        {{end}}
+
+                        {{if .Paginator.HasNext}}
+                        <li><a href="{{.Paginator.PageLinkNext}}" rel="next">»</a></li>
+                        {{else}}
+                        <li class="page-item disabled"><span class="page-link">»</span></li>
+                        {{end}}
+
+
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+            <div id="tbQuestionSection" class="tbTabContent">
+                <div class="tbQaSearch">
+                    <input type="search" maxlength="150" class="tbSiteReviews-tbReviewSearchInput"
+                           placeholder=" Have a questions? Search for answers"
+                           onsearch="tbrForm.qaSearch(document.getElementById('qa_search_text').value)"
+                           id="qa_search_text" name="qa_search_text" value=""/>
+                    <button class="tbSiteReviews-tbReviewSearchButton" type="submit"
+                            onclick="tbrForm.qaSearch(document.getElementById('qa_search_text').value)"><i
+                            class="fa fa-search"></i></button>
+                    <button class="tbProductDefaultButton tbProductDefaultButtonColor" type="button"
+                            onclick="tbrForm.clearQaSearch()"
+                            style="margin-left: 10px;height: 45px !important;display: block;">Clear
+                    </button>
+                </div>
+                <div class="tb_review_filter_field col-sm-12">
+                    {{ if eq .QuestionTotal 0 }}
+                    <div class="targetbay-no-lists">
+                        <input onclick="tbrForm.tbReviewShow('qa','scroll',0);"
+                               type="button" value="Be the first to write a question"
+                               class="tbProductDefaultButton tbProductDefaultButtonColor">
+                    </div>
+                    {{ end }}
+                    {{/* 问题开始 */}}
+                    {{ range $i, $v := .QuestionList }}
+                    <div class="tbSiteReviews-reviewContainerEach">
+                        <div class="tbrow">
+                            <div class="tbGrid-1 tbSiteReviews-tbMobileHide tb-letter-sec">
+                                <div class="tbSiteReviews-FirstName">
+                                    <span class="tb-cr-orange">{{ FirstWord $v.UserName }}</span>
+                                </div>
+                            </div>
+                            <div class="tbGrid-11 tbFullWidth tb-review-main-cont">
+                                <div class="tbSiteReviews-tbClientPostDetails">
+                                    <div class="tbrow">
+                                        <div class="tbSiteReviews-tbClientName tbGrid-9">
+                                            <span> {{ $v.UserName }}</span>
+                                        </div>
+                                        <div class="tbSiteReviews-tbClientPostDate tbGrid-3">
+                                            <span class="tbPullRight">{{ FormatDate $v.AddDate "01/02/2006" }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tbSiteReviews-tbClientPostTitleArea">
+                                    <div class="tbrow">
+                                        <div class="tbSiteReviews-tbClientTitle tbGrid-9">
+                                            <span class="tbQuestionLabel">Question:</span>
+                                            <div class="tbSiteReviews-tbClientTitle tbGrid-7">
+                                                {{ $v.Review }}
+                                            </div>
+                                        </div>
+                                        {{/* 管理员回复开始 */}}
+                                        {{ if .ReplyList }}
+                                        <div class="tbGrid-12">
+                                            <div class="tbSiteReviews-reviewCommentNotify"
+                                                 id="comment-toggle-{{ $v.UniqueId }}"
+                                                 onclick="tbrForm.tbQaAnswersToggle('{{ $v.UniqueId }}')">
+                                                {{ len .ReplyList }} ANSWER(S)
+                                            </div>
+
+                                            <div id="qa-answers-toggl-list-{{ $v.UniqueId }}">
+                                                {{ range $ri, $rv := .ReplyList }}
+                                                <div class="tbSiteReviews-reviewCommentContainer">
+                                                    <div class="">
+                                                        <div class="tbSiteReviews-tbMobileHide tb-letter-sec">
+                                                            <div class="tbProductReviews-clientLogo">
+                                                                <img src="data:image/jpeg;base64,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"
+                                                                     width="100%" height="auto"
+                                                                     class="tbImageResponsive" alt="Client image"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tbFullWidth tb-review-main-cont"
+                                                             id="{{ $v.UniqueId }}-{{ $rv.Id }}">
+                                                            <div class="tbSiteReviews-tbClientName tbGrid-9">
+                                                                <div class="tbProductReviews-clientLogo tbSiteReviews-tbMobileShow">
+                                                                    <img src="data:image/jpeg;base64,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"
+                                                                         width="100" height="100"
+                                                                         class="tbImageResponsive" alt="Client image"/>
+                                                                </div>
+                                                                <div class="tbSiteReviews-tbClientDescription">
+                                                                    <span class="tbAnswerLabel">Answer:</span>
+                                                                    <div class="tbGrid-10">
+                                                                        {{ $rv.Content }}
+                                                                    </div>
+                                                                </div>
+                                                                <span> {{ $rv.UserName }} </span>
+                                                            </div>
+                                                            <div class="tbSiteReviews-tbClientPostDate tbGrid-3">
+                                                                <span class="tbPullRight tbSiteReviews-tbadminReplay">#Reply</span>
+                                                                <span class="tbPullRight">{{ FormatDate $rv.AddDate "01/02/2006" }}</span>
+                                                            </div>
+                                                            <div class="tbGrid-12 tbSiteReviews-questionContainerEachFooter">
+                                                                <div class="tbSiteReviews-help">
+                                                                    <span class="tb-product-qa-vote-{{ $rv.Id }}-{{ $v.UniqueId }}"
+                                                                          {{ if eq $rv.VoteUp 0 }} style="display:none;"
+                                                                          {{ else }} style="display: block" {{ end }}>
+                                                                        <span id="targetbay-question-yes-count-{{ $rv.Id }}-{{ $v.UniqueId }}"> {{ $rv.VoteUp }} person found this helpful</span>
+                                                                    </span>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="tbSiteReviews-clientlike targetbay-question-voting"
+                                                                                 data="yes"
+                                                                                 data-val="{{ $v.UniqueId }}"
+                                                                                 data-index="{{ $rv.Id }}">
+                                                                                <a href="javascript:void(0)">
+                                                                                    <i class="fa fa-thumbs-up"
+                                                                                       aria-hidden="true"></i> Helpful
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li style="display: none">
+                                                                            <span id="targetbay-question-no-count-{{ $rv.Id }}-{{ $v.UniqueId }}"></span>
+                                                                            <div class="tbSiteReviews-clientUnlike targetbay-question-voting"
+                                                                                 data="no"
+                                                                                 data-val="{{ $v.UniqueId }}"
+                                                                                 data-index="{{ $rv.Id }}">
+                                                                                <a href="javascript:void(0)"> <i
+                                                                                        class="fa fa-thumbs-down"
+                                                                                        aria-hidden="true"></i> Not
+                                                                                    Helpful </a>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {{ end }}
+                                            </div>
+                                        </div>
+                                        {{ end }}
+                                        {{/* 管理员回复结束 */}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    {{/* 问题结束 */}}
+                    <div class="tbTextCenter tbSiteReviews-Footer tb_qa_pagination">
+                        {{/* 问题列表分页数据 */}}
+                        {{if gt .QuestionPaginator.PageNums 1}}
+                        <ul class="pagination">
+                            {{if .QuestionPaginator.HasPrev}}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ .QuestionPaginator.PageLinkPrev }}" rel="prev">«</a>
+                            </li>
+                            {{else}}
+                            <li class="page-item disabled"><span class="page-link">«</span></li>
+                            {{end}}
+
+                            {{range $index, $page := .QuestionPaginator.Pages}}
+                            {{if $.QuestionPaginator.IsActive .}}
+                            <li class="page-item active"><span class="page-link">{{$page}}</span></li>
+                            {{else}}
+
+                            <li class="page-item">
+                                <a class="page-link" href="{{ $.QuestionPaginator.PageLink $page }}">{{$page}}</a>
+                            </li>
+                            {{end}}
+
+                            {{end}}
+
+                            {{if .QuestionPaginator.HasNext}}
+                            <li><a href="{{.QuestionPaginator.PageLinkNext}}" rel="next">»</a></li>
+                            {{else}}
+                            <li class="page-item disabled"><span class="page-link">»</span></li>
+                            {{end}}
+
+
+                        </ul>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

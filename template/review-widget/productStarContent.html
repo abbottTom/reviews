@@ -1,0 +1,27 @@
+<div class="targetbay-reviews-count-field" style="padding: 5px 0; display: inline-block; vertical-align: middle;">
+    <span
+            class="targetbay-reviews-count-star targetbay-hyptext-color"
+            onclick="tbrForm.tbTabClick('tbReviewSection','scroll',0)"
+            style="color:#febf00;font-size: 16px;margin: 0 3px;cursor:pointer;">
+
+        {{/* 根据比分生成对应星 */}}
+        {{- range $val := CreateStarClass .Total.TotalNum .Total.TotalReviewRating }}
+             <span style="margin: 0;padding: 0 3px 0 0;"><i class="fa {{$val}}" aria-hidden="true"></i></span>
+        {{- end }}
+    </span>
+    <span
+            class="targetbay-reviews-count-value" onclick="tbrForm.tbTabClick('tbReviewSection','scroll',0)"
+            style="font-family:inherit;font-size:14px;cursor:pointer;margin: 0 3px;">{{ .Total.TotalNum }} Reviews
+    </span>
+    <span class="targetbay-question-icon" style="font-size: 16px;margin: 0 3px;">
+        <i class="fa fa fa-comments" aria-hidden="true"></i> </span>
+    <span
+            class="targetbay-question-fields" onclick="tbrForm.tbTabClick('tbQuestionSection','scroll',0)"
+            style="font-family:inherit;font-size:14px;cursor:pointer;margin: 0 3px;">{{ .QuestionTotal }} Question</span>
+    <span
+            class="targetbay-write-review" style="font-size:14"> |
+        <a href="javascript:void(0);" onclick="tbrForm.tbReviewShow('review','scroll',0)"
+           style="font-family:inherit;font-size:14px;margin: 0 3px;cursor:pointer; white-space: nowrap;"> Write a review
+        </a>
+    </span>
+</div>

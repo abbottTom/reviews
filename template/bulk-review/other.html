@@ -1,0 +1,30 @@
+<style>
+    .targetbay-reviews-count-star .fa {
+        color: #febf00;
+    }
+
+    .fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+        content: "\f123" !important;
+    }
+
+    .fa-star-o:before {
+        content: "\f006" !important;
+    }
+
+    .fa {
+        font: normal normal normal 14px/1 FontAwesome !important;
+    }
+
+    .targetbay-reviews-count-star span {
+        padding-right: 3px;
+    }
+</style>
+<div class="targetbay-reviews-count-field">
+    <div class="targetbay-reviews-count-star">
+        <div class="tbReviews-star-count">
+            {{- range $val := CreateStarClass . }}
+            <span><i class="fa {{$val}}" aria-hidden="true"></i></span>
+            {{- end }}
+        </div>
+    </div>
+</div>
